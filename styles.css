@@ -116,4 +116,34 @@ h1 {
     height: auto;
 }
 
+.lower-section-one-container,
+.lower-section-two-container,
+.lower-section-three-container {
+    border: 2px solid brown;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-width: 900;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.inner-box {
+   flex-basis: 100px;
+}
+
+.inner-box p {
+    text-wrap: wrap;
+}
+
 
