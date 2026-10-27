@@ -5,32 +5,23 @@
 }
 
 
-.header,
-.hero,
-.footer {
-    border: 2px solid red;
-}
-
 /* Whole Page Basic Layout Styling */
 
 html,
 body {
-    /* min-height: 100vh; */
     font-family: "Roboto", sans-serif;
 }
 
-.page-container {
+.page-container,
+.hero {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* min-height: inherit; */
 }
 
 .hero {
     flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    
 }
 
 /* Header Styling Code Starts Here */
@@ -44,7 +35,6 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    border: 2px solid blue;
     margin: 0 auto;
     padding: 20px 0;
 }
@@ -73,7 +63,6 @@ body {
 
 .upper-section,
 .lower-section {
-    border: 2px solid blue;
     flex: 1;
 }
 
@@ -82,7 +71,6 @@ body {
 }
 
 .upper-section-container {
-    border: 2px solid yellow;
     width: 80%;
     margin:  0 auto;
     display: flex;
@@ -119,7 +107,6 @@ h1 {
 .lower-section-one-container,
 .lower-section-two-container,
 .lower-section-three-container {
-    border: 2px solid brown;
     width: 80%;
     margin: 0 auto;
 }
@@ -161,7 +148,7 @@ h2 {
 }
 
 .lower-section-two-container {
-    padding: 60px 24px;
+    padding: 60px 80px;
 }
 
 .quote {
@@ -176,6 +163,50 @@ h2 {
     font-size: 24px;
     font-weight: 900;
 }
+
+.lower-section-three {
+    padding: 60px 0;
+}
+
+.lower-section-three-container {
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.lower-section-three-inner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    color: #F9FAF8;
+}
+
+.call-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.lower-section-three-inner-container button {
+    background-color: #3882F6;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #F9FAF8;
+    font-weight: 900;
+    border: 2px solid #F9FAF8;
+    border-radius: 6px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 40px 0;
+}
+
+
 
 
 
